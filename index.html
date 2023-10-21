@@ -34,6 +34,26 @@
 					this in class, and please ask questions as they arise. Let's make a form!</p>
 
 				<!-- 	-------- TO-DO: ADD FORM HERE -------- -->
+                <form>
+                    <label for="name">Full Name<span class="required">*</span></label>
+                      <input id="name" type="text" autocomplete="name" aria-required="true">
+                    
+                    <label for="email">Email<span class="required">*</span></label>
+                      <input id="email" type="email" autocomplete="email" aria-required="true">
+                    <label for="tel">Phone<span class="required">*</span>
+                      <input id="tel" type="tel" required autocomplete="tel" aria-required="true"></label>
+                    <fieldset>
+                      <legend>Prefered Contact Method<span class="required">*</span></legend>
+                      <input type="radio" name="tel" value="tel">
+                      <label for="tel">Phone</label>
+                      <input type="radio" name="email" value="email">
+                      <label for="email">Email</label>
+                    </fieldset>
+                    <label for="textarea">Message<span class="required">*</span>
+                      <textarea id="textarea"></textarea>
+                    </label>
+                    <input type="submit" value="Submit">
+                  </form>
 			</article>
 		</main>
 		<footer>
