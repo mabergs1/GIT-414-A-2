@@ -2,12 +2,12 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<!-- 	-------- TO-DO: ADD META TAG AND NAME HERE -------- -->
+		<!---TO-DO: ADD META TAG AND NAME HERE--->
         <meta name="author" content="Michael Bergstrom">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewwport" content="viewwport=device-width, initial-scale=1.0">
 		<title>Form Activity Solution File</title>
-		<!-- 	-------- TO-DO: ADD LINK TO CSS HERE -------- -->
+		<!---TO-DO: ADD LINK TO CSS HERE-->
         <link href="styles.css" rel="stylesheet">
 	</head>
 
@@ -34,7 +34,7 @@
 					accessing your website or if they just prefer that your forms be easy to use and submit. Follow along as we code
 					this in class, and please ask questions as they arise. Let's make a form!</p>
 
-				<!-- 	-------- TO-DO: ADD FORM HERE -------- -->
+				<!--TO-DO: ADD FORM HERE-->
                 <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
                     <label for="name">Full Name<span class="required">*</span></label>
                       <input id="name" type="text" autocomplete="name" aria-required="true">
@@ -51,7 +51,7 @@
                       <label for="tel">Phone</label>
                     </fieldset>
                     <label for="state">State<span class="required">*</span></label>			  	
-                        <select>
+                        <select id="state" name="select">
                             <option value="choose">Choose Your State</option>
                             <option value="AL">Alabama</option>
                             <option value="AK">Alaska</option>
